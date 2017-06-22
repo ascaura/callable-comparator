@@ -1,8 +1,8 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator;
+namespace Ascaura\PHPUnit\Comparator;
 
-use NoRegression\PHPUnit\Exporter\Exporter;
+use Ascaura\PHPUnit\Exporter\Exporter;
 use SebastianBergmann\Comparator\ArrayComparator as BaseComparator;
 
 class ArrayComparator extends BaseComparator

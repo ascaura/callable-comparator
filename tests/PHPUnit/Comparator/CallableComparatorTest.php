@@ -1,9 +1,9 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator;
+namespace Ascaura\PHPUnit\Comparator;
 
-use NoRegression\PHPUnit\Comparator\Callables\IsUuid;
-use NoRegression\PHPUnit\Comparator\Callables\CallableProxy;
+use Ascaura\PHPUnit\Comparator\Callables\IsUuid;
+use Ascaura\PHPUnit\Comparator\Callables\CallableProxy;
 
 class CallableComparatorTest extends \PHPUnit_Framework_TestCase
 {

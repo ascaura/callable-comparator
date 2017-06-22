@@ -1,9 +1,9 @@
 <?php
 
-namespace NoRegression\PHPUnit;
+namespace Ascaura\PHPUnit;
 
-use NoRegression\PHPUnit\Comparator\ArrayComparator;
-use NoRegression\PHPUnit\Comparator\CallableComparator;
+use Ascaura\PHPUnit\Comparator\ArrayComparator;
+use Ascaura\PHPUnit\Comparator\CallableComparator;
 use SebastianBergmann\Comparator\Factory;
 
 trait CallableComparatorTrait

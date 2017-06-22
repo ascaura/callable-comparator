@@ -1,6 +1,6 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator\Callables;
+namespace Ascaura\PHPUnit\Comparator\Callables;
 
 class IsUuidTest extends \PHPUnit_Framework_TestCase
 {
@@ -32,7 +32,7 @@ class IsUuidTest extends \PHPUnit_Framework_TestCase
 
     public function testIsinstanceOfBaseCallable()
     {
-        $this->assertInstanceOf('NoRegression\PHPUnit\Comparator\Callables\BaseCallable', $this->callable);
+        $this->assertInstanceOf('Ascaura\PHPUnit\Comparator\Callables\BaseCallable', $this->callable);
     }
 
     /**

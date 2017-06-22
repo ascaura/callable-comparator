@@ -1,8 +1,8 @@
 <?php
 
-namespace NoRegression\PHPUnit\Exporter;
+namespace Ascaura\PHPUnit\Exporter;
 
-use NoRegression\PHPUnit\Comparator\Callables\CallableInterface;
+use Ascaura\PHPUnit\Comparator\Callables\CallableInterface;
 use SebastianBergmann\Exporter\Exporter as BaseExporter;
 
 class Exporter extends BaseExporter

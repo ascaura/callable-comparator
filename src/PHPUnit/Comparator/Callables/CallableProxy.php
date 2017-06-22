@@ -1,6 +1,6 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator\Callables;
+namespace Ascaura\PHPUnit\Comparator\Callables;
 
 use \PHPUnit_Framework_ExpectationFailedException;
 use \SebastianBergmann\Comparator\ComparisonFailure;

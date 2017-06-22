@@ -1,16 +1,16 @@
 # PHPUnit Callable Comparator
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.txt)
-[![Build Status](https://travis-ci.org/noregression/callable-comparator.svg?branch=master)](https://travis-ci.org/noregression/callable-comparator)
-[![Code Climate](https://codeclimate.com/github/noregression/callable-comparator/badges/gpa.svg)](https://codeclimate.com/github/noregression/callable-comparator)
-[![Test Coverage](https://codeclimate.com/github/noregression/callable-comparator/badges/coverage.svg)](https://codeclimate.com/github/noregression/callable-comparator)
-[![Total Downloads](https://img.shields.io/packagist/dt/noregression/callable-comparator.svg)](https://packagist.org/packages/noregression/callable-comparator)
+[![Build Status](https://travis-ci.org/ascaura/callable-comparator.svg?branch=master)](https://travis-ci.org/ascaura/callable-comparator)
+[![Code Climate](https://codeclimate.com/github/ascaura/callable-comparator/badges/gpa.svg)](https://codeclimate.com/github/ascaura/callable-comparator)
+[![Test Coverage](https://codeclimate.com/github/ascaura/callable-comparator/badges/coverage.svg)](https://codeclimate.com/github/ascaura/callable-comparator)
+[![Total Downloads](https://img.shields.io/packagist/dt/ascaura/callable-comparator.svg)](https://packagist.org/packages/ascaura/callable-comparator)
 
 Makes it possible to use callables in PHPunit assertions
 
 ## Installation
 ```sh
-composer require noregression/callable-comparator
+composer require ascaura/callable-comparator
 ```
 
 ## Usage
@@ -19,11 +19,11 @@ composer require noregression/callable-comparator
 
 require_once ('vendor/autoload.php');
 
-use NoRegression\PHPUnit\CallableComparatorTrait;
-use NoRegression\PHPUnit\Comparator\Callables\CallableProxy;
-use NoRegression\PHPUnit\Comparator\Callables\IsDateTime;
-use NoRegression\PHPUnit\Comparator\Callables\IsUuid;
-use NoRegression\PHPUnit\Comparator\Callables\IsPasswordHashFor;
+use Ascaura\PHPUnit\CallableComparatorTrait;
+use Ascaura\PHPUnit\Comparator\Callables\CallableProxy;
+use Ascaura\PHPUnit\Comparator\Callables\IsDateTime;
+use Ascaura\PHPUnit\Comparator\Callables\IsUuid;
+use Ascaura\PHPUnit\Comparator\Callables\IsPasswordHashFor;
 
 class ExampleTest extends \PHPUnit_Framework_TestCase
 {

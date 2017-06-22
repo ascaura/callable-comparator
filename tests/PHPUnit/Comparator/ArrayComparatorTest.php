@@ -1,6 +1,6 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator;
+namespace Ascaura\PHPUnit\Comparator;
 
 class ArrayComparatorTest extends \PHPUnit_Framework_TestCase
 {
@@ -12,7 +12,7 @@ class ArrayComparatorTest extends \PHPUnit_Framework_TestCase
     public function testCustomExporterIsUsed()
     {
         $this->assertInstanceOf(
-            'NoRegression\PHPUnit\Exporter\Exporter',
+            'Ascaura\PHPUnit\Exporter\Exporter',
             \PHPUnit_Framework_Assert::readAttribute($this->comparator, 'exporter')
         );
     }

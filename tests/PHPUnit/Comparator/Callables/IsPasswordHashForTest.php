@@ -1,6 +1,6 @@
 <?php
 
-namespace NoRegression\PHPUnit\Comparator\Callables;
+namespace Ascaura\PHPUnit\Comparator\Callables;
 
 class IsPasswordHashForTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class IsPasswordHashForTest extends \PHPUnit_Framework_TestCase
 
     public function testIsinstanceOfBaseCallable()
     {
-        $this->assertInstanceOf('NoRegression\PHPUnit\Comparator\Callables\BaseCallable', $this->callable);
+        $this->assertInstanceOf('Ascaura\PHPUnit\Comparator\Callables\BaseCallable', $this->callable);
     }
 
     public function testWithInvalidValue()

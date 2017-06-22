@@ -1,8 +1,8 @@
 {
-    "name": "noregression/callable-comparator",
+    "name": "ascaura/callable-comparator",
     "description": "Makes it possible to use callables in PHPunit assertions",
     "keywords": ["phpunit", "comparator", "callable"],
-    "homepage": "http://www.noregression.nl",
+    "homepage": "http://www.scaura.com",
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
